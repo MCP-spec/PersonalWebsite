@@ -11,5 +11,5 @@ export class ResumeComponent implements OnInit {
 
   ngOnInit() {
   }
-
+// Include Code to Hide/Reveal as a fun feature to show angular skills. Use a click event.
 }
