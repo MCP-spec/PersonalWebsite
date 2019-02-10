@@ -6,6 +6,7 @@ import {AppRoutingModule} from './app-routing/app-routing.module';
 import { ResumeComponent } from './resume/resume.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { AboutMeComponent } from './about-me/about-me.component';
+import {CommonModule} from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AboutMeComponent } from './about-me/about-me.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CommonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,3 +1,9 @@
-<p>
-  projects works!
-</p>
+<!-- Potentially Put All Project descriptions in in array, or create an object and then have a button to cycle through the projects  *ngFor = "let object of obj" -->
+
+<h3>
+  {{projects[projectIndex].Title}}
+</h3>
+
+<p>{{projects[projectIndex].Description}}</p>
+<button (click) = "onClickToNextProject()">Next Project</button>
+ <!-- Json formatting string in downloads -->
